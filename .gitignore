@@ -1,3 +1,10 @@
+# Build output
+**/dist/
+target
+
+# Caches
+*.tsbuildinfo
+
 # Code coverage
 coverage
 *.lcov
@@ -18,3 +25,7 @@ node_modules
 # Logs
 logs
 *.log
+
+# moon
+.moon/cache
+.moon/docker
