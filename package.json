@@ -1,18 +1,22 @@
 {
-    "name": "",
+    "name": "janustack",
     "description": "",
     "author": "Andrew Christian Young (https://andrewcwhy.me/)",
     "private": true,
+    "type": "module",
+    "dependencies": {
+        "@tailwindcss/vite": "^4.1.7",
+        "@tanstack/solid-router": "^1.120.5",
+        "solid-js": "^1.9.7",
+        "tailwindcss": "^4.1.7"
+    },
     "devDependencies": {
         "@biomejs/biome": "^1.9.4",
+        "@janfig/biome": "^0.1.0",
+        "@tanstack/router-plugin": "^1.120.10",
         "@types/bun": "^1.2.14",
         "typescript": "^5.8.3",
         "vite": "^6.3.5",
         "vite-plugin-solid": "^2.11.6"
-    },
-    "dependencies": {
-        "@tanstack/solid-router": "^1.120.5",
-        "solid-js": "^1.9.7",
-        "tailwindcss": "^4.1.7"
     }
 }
